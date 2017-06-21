@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Layout2</title>
-    <link href="layout1.css" type="text/css" rel="stylesheet" />
-    <link href="media.css" type="text/css" rel="stylesheet" />
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <link href="mediaquery.css" type="text/css" rel="stylesheet" />
 </head>
 
 <body>
@@ -36,9 +36,7 @@
     <hr/>
     <div id="features">Latest Features</div>
 
-
     <div id="container">
-
 
         <!--div for top elements-->
 
@@ -74,22 +72,24 @@
 				</span>
         </div>
 
-<!--div for bottom elements-->
+        <!--div for bottom elements-->
 
+        <hr class="hr1" />
+        <div>
+            <p id="p3">Copyright © Excellence Technology 2009</p>
+        </div>
+    </div>
 
-<hr class="hr1"/>
-<div><p id="p3">Copyright © Excellence Technology 2009</p></div>
-	</div>
-
-<script>
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-</script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 </body>
+
 </html>
