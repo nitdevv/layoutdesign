@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Layout3</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <link href="media.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <div>
+        <ul class="topnav" id="myTopnav">
+            <li class="icon">
+                <a href="#" style="font-size:15px;" onclick="myFunction()">☰</a>
+                <li><a class="active" href="#layout3">Layout3</a>
+                </li>
+                <li><a class="notactive" href="#about">About</a>
+                </li>
+                <li><a class="notactive" href="#services">Services</a>
+                </li>
+                <li><a class="notactive" href="#contact">Contact</a>
+                </li>
+
+            </li>
+        </ul>
+    </div>
+
+    <div id="container">
+
+        <!--div for Left Div elements-->
+        <div id="left_div">
+
+            <div id="heading">
+                <h2 id="h2">Blog Post Title</h2>
+                <br/>
+                <p id="p1">by</p>
+                <p id="p1" class="test">Test</p>
+            </div>
+
+            <hr id="hr1" />
+            <p id="p9">⌚️ Posted on August 24, 2013 at 9PM.</p>
+            <hr id="hr1" />
+
+            <!--div for top elements-->
+
+            <div class="item">
+                <img class="image" src="http://placehold.it/900x300">
+                <hr id="hr1" />
+
+                <span class="caption"><br/>
+					<p id="p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ipsa,ipsam, eligendi,
+                                                    in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis 
+                                                    illo aspernatur vitae fugiat numquam repellat.</p><br/>
+					<p id="p3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ipsa,ipsam, eligendi,
+                                                    in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis 
+                                                    illo aspernatur vitae fugiat numquam repellat.</p><br/>
+					<p id="p3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ipsa,ipsam, eligendi,
+                                                    in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis 
+                                                    illo aspernatur vitae fugiat numquam repellat.</p><br/>
+					<p id="p3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ipsa,ipsam, eligendi,
+                                                    in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis 
+                                                    illo aspernatur vitae fugiat numquam repellat.</p><br/>
+					<p id="p3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ipsa,ipsam, eligendi,
+                                                    in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis 
+                                                    illo aspernatur vitae fugiat numquam repellat.</p><br/>
+				</span>
+            </div>
+        </div>
+
+        <div id="right_div">
+
+            <div id="side_item1">
+                <p id="p4">Blog Search</p>
+                <br/>
+                <input type="text" id="input_text">
+                <button id="search_btn"><img src="search.png" width="15px" height="13px" />
+                </button>
+            </div>
+            <br/>
+            <br/>
+
+            <div id="side_item2">
+                <p id="p4">Blog Categories</p>
+                <br/>
+                <p id="p5">Category Name</p>
+                <p id="p5">Category Name</p>
+                <p id="p5">Category Name</p>
+                <p id="p5">Category Name</p>
+                <p id="p5">Category Name</p>
+                <p id="p5">Category Name</p>
+                <p id="p5">Category Name</p>
+                <p id="p5">Category Name</p>
+                <br/>
+            </div>
+            <br/>
+            <br/>
+            <div id="side_item3">
+                <p id="p4">Side Widget Well</p>
+                <br/>
+                <p id="p6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                           Inventore, perspiciatis adipisci accusamus laudantium odit
+                           aliquam repellat tempore quos aspernature vero</p>
+            </div>
+
+        </div>
+
+        <div id="foooter">
+            <hr id="hr_f">
+            <p id="p7">Copyright © Your website 2014</p>
+        </div>
+
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>
