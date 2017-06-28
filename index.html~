@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Shoepsd</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="media.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="leftheader">
+                <ul class="ul1">
+                    <li id="li1"><a href="#">Home</a>
+                    </li>
+                    <li id="li1"><a href="#">About us</a>
+                    </li>
+                    <li id="li1"><a href="#">Contact us</a>
+                    </li>
+                    <img src="images/line.png" alt="" style="height: 15px;" />
+
+                </ul>
+            </div>
+            <div class="rightheader">
+                <div class="flag"> <img src="images/flag.png" alt="" />
+                </div>
+                <div class="textbox">
+                    <input type="text" id="text1" placeholder="Search">
+                    <div class="arrow"> <img src="images/sarrow.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both"></div>
+        </div>
+        <div class="line">
+
+        </div>
+        <div class="content">
+            <div class="contenttop">
+                <div class="logo">
+                    <img src="images/logo.png" alt="" />
+                </div>
+                <div class="login">
+                    <div class="lock">
+                        <ul class="ul2">
+                            <li id="li2"><a href="#">Welcome!</a>
+                            </li>
+                            <li id="li2">
+                                <img src="images/lock.png" alt="" /> </li>
+                            <a href="#">
+                                <li id="li2"> Login</a>
+                            </li>
+                            <li id="li2" style="clear:both"></li>
+                        </ul>
+
+                    </div>
+                    <div class="account">
+                        <ul class="ul3">
+                            <li id="li3"><a href="#">My Account</a>
+                            </li>
+                            <li id="li3"><a href="#">My Wishlist</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div style="clear:both"></div>
+                </div>
+                <div style="clear:both"></div>
+            </div>
+            <div class="contentmenu">
+                <div class="menuleft">
+                    <ul class="ul4">
+                        <li id="li4"><a href="#">ONLINE STORE</a>
+                        </li>
+                        <li id="li4"><a href="#">ABOUT US</a>
+                        </li>
+                        <li id="li4"><a href="#">DELIVERY</a>
+                        </li>
+                        <li id="li4"><a href="#">FAQS</a>
+                        </li>
+                        <li id="li4"><a href="#">CONTACTS</a>
+                        </li>
+                        <li id="li4" style="clear:both"></li>
+                    </ul>
+                    <div style="clear:both"></div>
+                </div>
+                <div class="menuright">
+                    <ul class="ul5">
+                        <li id="li5">
+                            <a href="#">
+                                <img src="images/CART.png" alt="" />
+                            </a>
+                        </li>
+                        <li id="li5"><a href="#">My Cart</a>
+                        </li>
+                        <li id="li5">
+                            <a href="#">
+                                <img src="images/TAG.png" alt="" />
+
+                            </a>
+                        </li>
+                        <li id="li5"><a href="#">Check Out</a>
+                        </li>
+                        <li id="li5" style="clear:both"></li>
+                    </ul>
+                    <div style="clear:both"></div>
+                </div>
+                <div style="clear:both"></div>
+            </div>
+            <div class="slider">
+                <div class="slider1">
+                    <p id="a">HOT</p>
+                    <p id="b">SALE</p>
+                    <p id="c">COLLECTONS</p>
+                    <p id="d">2013</p>
+                    <div class="view">
+                        <a href="#"> VIEW COLLECTIONS&nbsp;
+                                <img src="images/arr.png" alt=""/></a>
+                    </div>
+                    <div style="clear:both"></div>
+                </div>
+                <div class="slider2">
+                    <img src="images/imgsize.png" alt="" />
+                </div>
+                <div style="clear:both"></div>
+            </div>
+            <div class="content2">
+                <div class="content2left">
+                    <div class="heading">
+                        <p id="e">Featured Brand</p>
+
+                    </div>
+                    <div class="imgbox1">
+                        <div class="img1">
+                            <div class="image">
+                                <div class="imgsizeee">
+                                    <img src="images/141*115.png" alt="" />
+                                </div>
+                            </div>
+                            <div class="dotline">
+
+                            </div>
+                            <div class="imgtext">
+                                PRODUCT#001
+                            </div>
+                        </div>
+                        <div class="img1">
+                            <div class="image">
+                                <div class="imgsizeee">
+                                    <img src="images/141*115.png" alt="" />
+                                </div>
+                            </div>
+                            <div class="dotline">
+
+                            </div>
+                            <div class="imgtext">
+                                PRODUCT#002
+                            </div>
+                        </div>
+                        <div class="img1">
+                            <div class="image">
+                                <div class="imgsizeee">
+                                    <img src="images/141*115.png" alt="" />
+                                </div>
+                            </div>
+                            <div class="dotline">
+
+                            </div>
+                            <div class="imgtext">
+                                PRODUCT#003
+                            </div>
+
+                        </div>
+                        <div class="img1">
+                            <div class="image">
+                                <div class="imgsizeee">
+                                    <img src="images/141*115.png" alt="" />
+                                </div>
+                            </div>
+                            <div class="dotline">
+
+                            </div>
+                            <div class="imgtext">
+                                PRODUCT#004
+                            </div>
+                        </div>
+                        <div style="clear:both"></div>
+                    </div>
+                    <div class="heading2">
+                        <p id="e">New Brand</p>
+
+                    </div>
+                    <div class="bigbox">
+                        <div class="subbox">
+                            <div class="cont">
+                                <div class="uper">
+                                    <div class="cont1">
+                                        <p id="g"> Kids</p>
+                                        <p id="f">Shoes</p>
+                                    </div>
+                                    <div class="cont2">
+                                        <img src="images/170*130.png" alt="" />
+                                    </div>
+                                    <div class="cont3">
+                                        phasellus a purus diam.vestib ulum pulvinar iaculis nequeio.
+                                    </div>
+                                    <div class="cont4">
+                                        <div class="dollar">
+                                            $
+                                        </div>
+                                        <div class="price">
+
+                                            499.
+                                        </div>
+
+                                        <div class="button">
+                                            <a href="#">
+                                                <button type="button" id="bt1">Details</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div style="clear:both"></div>
+                                </div>
+                                <div class="devide2">
+                                    <img id="y" src="images/devider.png" alt="" />
+                                </div>
+                                <div class="lower">
+
+                                    <div class="cont2">
+                                        <img src="images/170*130.png" alt="" />
+                                    </div>
+                                    <div class="cont3">
+                                        phasellus a purus diam.vestib ulum pulvinar iaculis nequeio.
+                                    </div>
+                                    <div class="cont4">
+                                        <div class="dollar">
+                                            $
+                                        </div>
+                                        <div class="price">
+                                            499
+                                        </div>
+                                        <div class="button">
+                                            <a href="#">
+                                                <button type="button" id="bt1">Details</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div style="clear:both"></div>
+                                </div>
+                                <div style="clear:both"></div>
+                            </div>
+                            <div class="line2">
+                                <img src="images/verticaldevider.png" alt="" />
+                            </div>
+                            <div class="Acont">
+                                <div class="Auper">
+                                    <div class="Acont1">
+                                        <p id="g"> Men</p>
+                                        <p id="f">Shoes</p>
+                                    </div>
+                                    <div class="cont2">
+                                        <img src="images/170*130.png" alt="" />
+                                    </div>
+                                    <div class="cont3">
+                                        phasellus a purus diam.vestib ulum pulvinar iaculis nequeio.
+                                    </div>
+                                    <div class="cont4">
+                                        <div class="dollar">
+                                            $
+                                        </div>
+                                        <div class="price">
+                                            499
+                                        </div>
+                                        <div class="button">
+                                            <a href="#">
+                                                <button type="button" id="bt1">Details</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div style="clear:both"></div>
+                                </div>
+                                <div class="devide2">
+                                    <img id="y" src="images/devider.png" alt="" />
+                                </div>
+                                <div class="lower">
+
+                                    <div class="cont2">
+                                        <img src="images/170*130.png" alt="" />
+                                    </div>
+                                    <div class="cont3">
+                                        phasellus a purus diam.vestib ulum pulvinar iaculis nequeio.
+                                    </div>
+                                    <div class="cont4">
+                                        <div class="dollar">
+                                            $
+                                        </div>
+
+                                        <div class="price">
+                                            499
+                                        </div>
+                                        <div class="button">
+                                            <a href="#">
+                                                <button type="button" id="bt1">Details</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div style="clear:both"></div>
+                                </div>
+                                <div style="clear:both"></div>
+                            </div>
+                            <div class="line2">
+                                <img src="images/verticaldevider.png" alt="" />
+                            </div>
+                            <div class="Acont">
+                                <div class="Auper">
+                                    <div class="Acont1">
+                                        <p id="g"> Women</p>
+                                        <p id="f">Shoes</p>
+                                    </div>
+                                    <div class="cont2">
+                                        <img src="images/170*130.png" alt="" />
+                                    </div>
+                                    <div class="cont3">
+                                        phasellus a purus diam.vestib ulum pulvinar iaculis nequeio.
+                                    </div>
+                                    <div class="cont4">
+                                        <div class="dollar">
+                                            $
+                                        </div>
+                                        <div class="price">
+                                            499
+                                        </div>
+                                        <div class="button">
+                                            <a href="#">
+                                                <button type="button" id="bt1">Details</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div style="clear:both"></div>
+                                </div>
+                                <div class="devide2">
+                                    <img id="y" src="images/devider.png" alt="" />
+                                </div>
+                                <div class="lower">
+
+                                    <div class="cont2">
+                                        <img src="images/170*130.png" alt="" />
+                                    </div>
+                                    <div class="cont3">
+                                        phasellus a purus diam.vestib ulum pulvinar iaculis nequeio.
+                                    </div>
+                                    <div class="cont4">
+                                        <div class="dollar">
+                                            $
+                                        </div>
+                                        <div class="price">
+                                            499
+                                        </div>
+                                        <div class="button">
+                                            <a href="#">
+                                                <button type="button" id="bt1">Details</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div style="clear:both"></div>
+                                </div>
+                                <div style="clear:both"></div>
+                            </div>
+                            <div style="clear:both"></div>
+                        </div>
+                        <div style="clear:both"></div>
+                    </div>
+                    <div class="contentleftlast">
+                        <ul class="ul6">
+                            <li id="li6">
+                                Browse All
+                            </li>
+                            <li id="li6">
+                                :
+                            </li>
+                            <li id="li6">
+                                <a href="#">New Shoes</a>
+                            </li>
+                            <li id="li6">
+                                <img src="images/line.png" alt="" />
+
+                            </li>
+                            <li id="li6">
+                                <a href="#"> Featured Shoes</a>
+                            </li>
+                            <li id="li6">
+                                <img src="images/line.png" alt="" />
+                            </li>
+                            <li id="li6">
+                                <a href="#">A-Z</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div style="clear:both"></div>
+                </div>
+                <div class="content2right">
+                    <div class="Csub">
+                        <div class="c2box1">
+                            <div class="SU">
+                                <p id="h">
+                                    My Cart
+                                </p>
+                                <p id="m"> You have no item in your shoping cart.</p>
+                            </div>
+                        </div>
+                        <div class="c2box2">
+                            <div class="SU">
+                                <p id="h">
+                                    Comapare Produts
+                                </p>
+                                <p id="m"> You have no item to compare.</p>
+                            </div>
+                        </div>
+                        <div class="c2box3">
+                            <div class="bo1">
+                                <div class="head">
+                                    <p id="I">Best Sellers</p>
+                                </div>
+                                <div class="im">
+                                    <div class="im1">
+                                        <img src="images/75*75.png" alt="" />
+                                    </div>
+                                    <div class="im2">
+                                        <p id="j">Product#001</p>
+                                        <p id="k">Vivamuseuismodio vehiculaerat sed</p>
+                                        <p id="l">
+                                            <img src="images/rupee.png" alt="" />
+
+                                        </p>
+                                    </div>
+                                    <div style="clear:both"></div>
+                                </div>
+                                <div class="dev">
+
+                                </div>
+                                <div class="im">
+                                    <div class="im1">
+                                        <img src="images/75*75.png" alt="" />
+                                    </div>
+                                    <div class="im2">
+                                        <p id="j">Product#002</p>
+                                        <p id="k">Vivamuseuismodio vehiculaerat sed</p>
+                                        <p id="l">
+                                            <img src="images/rupee.png" alt="" />
+
+                                        </p>
+                                    </div>
+                                    <div style="clear:both"></div>
+                                </div>
+                                <div class="dev">
+
+                                </div>
+                                <div class="im">
+                                    <div class="im1">
+                                        <img src="images/75*75.png" alt="" />
+                                    </div>
+                                    <div class="im2">
+                                        <p id="j">Product#003</p>
+                                        <p id="k">Vivamuseuismodio vehiculaerat sed</p>
+                                        <p id="l">
+                                            <img src="images/rupee.png" alt="" />
+                                        </p>
+                                    </div>
+                                    <div style="clear:both"></div>
+                                </div>
+                            </div>
+                            <div style="clear:both"></div>
+                        </div>
+                        <div class="c2box4">
+                            <div class="SU">
+                                <p id="h">
+                                    Popular Tags
+                                </p>
+                                <p id="m">apple samsung lg dell hp ipad lcd cam zoom</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="clear:both"></div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer1">
+                <div class="part1">
+                    <p id="p">Newsletter</p>
+                    <input type="text" id="text2">
+                    <a href="#">
+                        <button type="button" id="bt2">GO</button>
+                    </a>
+                    <p id="q">
+                        Please enter your valid email.we wont spam
+                    </p>
+                </div>
+                <div class="deviderrrr">
+                    <img id="u" src="images/footerdevoder.png" alt="" />
+                </div>
+                <div class="part2">
+                    <div class="part21">
+                        <div class="cart1">
+                            <img src="images/cart12.png" alt="" />
+                        </div>
+                        <div class="met">
+                            <p id="s">
+                                FREE SHIPPING
+                            </p>
+                            <p id="t">
+                                on order over $250
+                            </p>
+                        </div>
+                        <div style="clear:both"></div>
+                    </div>
+                    <div style="clear:both"></div>
+                </div>
+                <div class="deviderrrr">
+                    <img id="u" src="images/footerdevoder.png" alt="" />
+                </div>
+                <div class="clear:both">
+                </div>
+
+                <div class="part3">
+                    <p id="r">Follow Us</p>
+                    <ul class="ul7">
+
+                        <li id="li7">
+                            <a href="#">
+                                <img src="images/iconfacebook.png" alt="" />
+                            </a>
+                        </li>
+                        <li id="li7">
+                            <a href="#">
+                                <img src="images/twiter.png" alt="" />
+                            </a>
+                        </li>
+                        <li id="li7">
+                            <a href="#">
+                                <img src="images/linkdin.png" alt="" />
+                            </a>
+                        </li>
+                        <li id="li7">
+                            <a href="#">
+
+                                <img src="images/icon.png" alt="" />
+                            </a>
+                        </li>
+                        <li id="li7" style="clear:both"></li>
+                    </ul>
+                    <div style="clear:both"></div>
+                </div>
+                <div style="clear:both"></div>
+            </div>
+            <div style="clear:both"></div>
+
+        </div>
+        <div class="footer2">
+            <div class="subfoo">
+                <ul class="ul8">
+                    <li id="li8"><a href="#"> About Us</a>
+                    </li>
+                    <li id="li8">
+                        <img src="images/line.png" alt="" />
+                    </li>
+                    <li id="li8"><a href="#">Customer Service</a>
+                    </li>
+                    <li id="li8">
+                        <img src="images/line.png" alt="" />
+                    </li>
+                    <li id="li8"><a href="#">Site map</a>
+                    </li>
+                    <li id="li8">
+                        <img src="images/line.png" alt="" />
+                    </li>
+                    <li id="li8"><a href="#">Search Terms</a>
+                    </li>
+                    <li id="li8">
+                        <img src="images/line.png" alt="" />
+                    </li>
+                    <li id="li8"><a href="#">Advanced Search</a>
+                    </li>
+                    <li id="li8">
+                        <img src="images/line.png" alt="" />
+                    </li>
+                    <li id="li8"><a href="#">Orders & Returns</a>
+                    </li>
+                    <li id="li8">
+                        <img src="images/line.png" alt="" />
+                    </li>
+                    <li id="li8"><a href="#">Contact us</a>
+                    </li>
+                </ul>
+                <p id="v">
+                    @2013 shoes store.All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
