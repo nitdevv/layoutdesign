@@ -1,10 +1,8 @@
 <html>
-
 <head>
     <title>
         Invision app
     </title>
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -19,36 +17,37 @@
         });
     });
 </script>
-
 <body>
     <div class="layer">
         <div class="ucontainer">
             <div class="logoN">
-                <img src="logo1.png" id="toplogo" width="20%">
+                <img src="header.png" id="toplogo" width="50%">
             </div>
             <div style="clear:both"></div>
+            <div class="heading">
+                <h1><a href="#">Create Account</a></h1>
+            </div>
             <div class="content">
-                <div class="content2">
-                    <div class="user-input" id="userlogo">
-                      <!-- <img src="ulogo.png"> -->
-                        <input type="text" placeholder="Username" id="username" onFocus="border='null'">
-                    </div>
-                    <div class="user-password">
-                        <input type="password" placeholder="Password" id="password" onFocus="value=''">
-                    </div>
-                    <div class="submit">
-                        <input type="button" value="Get Started" id="submit"onFocus="value=''" />
-                    </div>
+                <div class="user-input" id="userlogo">
+                    <!-- <img src="ulogo.png"> -->
+                    <input type="text" placeholder="Username" id="username" onFocus="border='null'">
                 </div>
-                <div class="footer">
-                  <ul type="none">
-                    <li type="none" id="footer-content"><a href="#">Create Account</a></li>
-                    <li  type="none"id="footer-co"><a href="#">Need Help?</a></li>
-                    </ul>
+                <div class="user-message" id="usermessage">
+                    <!-- <img src="ulogo.png"> -->
+                    <input type="email" placeholder="Email" id="email" onFocus="border='null'">
+                </div>
+                <div class="user-password">
+                    <input type="password" placeholder="Password" id="password" onFocus="value=''">
+                </div>
+                <div class="submit">
+                    <input type="button" value="Continue" id="submit" onFocus="value=''" />
                 </div>
             </div>
-</div>
-  </div>
-</body>
+            <div class="heading2">
+                <h4><a href="#">Terms & condition</a></h4>
+            </div>
 
+        </div>
+    </div>
+</body>
 </html>

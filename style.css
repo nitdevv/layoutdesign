@@ -3,84 +3,120 @@
     padding: 0 auto;
 }
 .ucontainer {
-background-image: url("background2.png");
-background-size: cover;
-width: 100%;
-height: 100%;
-
+    background-image: url("lay2back.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
 }
 .logoN {
-  width: 100%;
-    height: 30%;
+    width: 100%;
+    height: 19%;
     text-align: center;
-    margin-bottom: 15%;
+    /*margin-bottom: 15%;*/
+    /*margin-bottom: 260px;*/
 }
-.footer{
+.heading a {
+    color: #ffffff;
+    font-size: 1.5em;
+    font-family: 'AtlasGrotesk', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+.heading {
+    text-align: center;
+    padding-top: 57px;
+}
+/*.footer{
   width: 80%;
   font-size: 10px;
   margin: 0 auto;
       padding: 14px 0px 0px 0px
-}
-#logo img{
-  width: 20%;
-}
-input{
-  color: #ffffff;
-  font-size: 11px;
-  background-color: rgba(0,0,0,0.1);
-  border-radius: 26px;
+}*/
+/*#logoN img{
+  width: 50%;
 
-  height: 50px;
-  min-width: 280px;
-  font-family: 'AtlasGrotesk',sans-serif;
+}*/
+
+.heading2 {
+    text-align: center;
 }
-.content{
-  width: 80%;
-  height: auto;
-  margin: 0 auto;
-  vertical-align: text-bottom;
+.heading2 a {
+    text-decoration: none;
+    color: gray;
+    font-family: 'AtlasGrotesk', sans-serif;
+    font-size: .7em;
 }
-.content2{
+input {
+    color: #ffffff;
+    font-size: 11px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 26px;
+    height: 50px;
+    min-width: 280px;
+    font-family: 'AtlasGrotesk', sans-serif;
+}
+.content {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    vertical-align: text-bottom;
+    text-align: center;
+    padding-top: 77px;
+}
+/*.content2{
   text-align: center;
-}
-#submit{
-  color: #ffffff;
-  font-size: 11px;
-  border-radius: 26px;
-  font-weight: bold;
-  border: hidden;
+
+}*/
+
+#submit {
+    color: #ffffff;
+    font-size: 11px;
+    border-radius: 26px;
+    font-weight: bold;
+    border: hidden;
     cursor: pointer;
     outline: none;
-
+    margin: 29px;
+    border: 1px solid rgba(0,0,0,0.5);
 }
-#username{
-  background: url(ulogo.png) no-repeat left center;
-  background-color: rgba(0,0,0,0.1);
-  background-size: 23%;
-  opacity: 1;
-  padding-left: 10%;
-  margin: 0 0px 12px 0px;
-  font-family: 'AtlasGrotesk',sans-serif;
-  border: hidden;
+
+#username {
+    background: url(double.png) no-repeat left center;
+    background-size: 9%;
+    background-position: 30px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-left: 60px;
+    margin: 0 0px 12px 0px;
+    font-family: 'AtlasGrotesk', sans-serif;
+    border: hidden;
     cursor: pointer;
     outline: none;
-
 }
-#password
-{
-  background: url(passlogo.png) no-repeat left center;
-  background-color: rgba(0,0,0,0.1);
-  background-size: 24%;
-  opacity: 1;
-  padding-left: 10%;
-  margin: 0 0px 12px 0px;
-  font-family: 'AtlasGrotesk',sans-serif;
-  border: hidden;
+#email {
+    background: url(email.png) no-repeat left center;
+    background-size: 9%;
+    background-position: 30px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-left: 60px;
+    margin: 0 0px 12px 0px;
+    font-family: 'AtlasGrotesk', sans-serif;
+    border: hidden;
     cursor: pointer;
     outline: none;
-
 }
-#footer-content a{
+#password {
+    background: url(passlogo.png) no-repeat left center;
+    background-size: 18%;
+    background-position: 24px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-left: 60px;
+    margin: 0 0px 12px 0px;
+    font-family: 'AtlasGrotesk', sans-serif;
+    border: hidden;
+    cursor: pointer;
+    outline: none;
+}
+/*#footer-content a{
   color: #ffffff;
   text-decoration: none;
 }
@@ -100,7 +136,8 @@ input{
 #footer{
   width: 280px;
   margin: 0 auto;
-}
+}*/
+
 .layer {
     background-color: #f96331;
     filter: #f96331;
@@ -109,69 +146,126 @@ input{
     filter: alpha(opacity=60);
     /* For IE8 and earlier */
 }
-@media screen and (max-width: 425px) and (min-width: 383px){
-  .logoN img{
-    margin-top: 8%;
-width: 37%;
-  }
-  #username{
-
-    padding-left: 23%;
-background-size: 17%;
-font-size: .7em;
-  }
-  .content2{
-    padding: 56px 0px 1px 0px;
-  }
-  #password{
-    padding-left: 23%;
-  background-size: 17%;
-  font-size: .7em;
-  }
-  .content{
-    padding-top: 15%;
-  }
-  input{
-    min-width: 100%;
-    font-size: 4em;
-  }
-  #btn{
-        font-size: .8em;
-  }
-  #center_text{
-    width: 100%;
-    font-size: 3vw;
-  }
+@media screen and (max-width: 768px) {
+    #logoN img {
+        width: 60%
+    }
+    .content {
+        padding-top: 79px;
+    }
+    .heading {
+        text-align: center;
+        padding-top: 17px;
+    }
 }
-@media screen and (max-width: 382px) and (min-width: 320px){
+@media screen and (max-width: 425px) and (min-width: 383px) {
+    .logoN img {
+        margin-top: 8%;
+        width: 80%;
+    }
+    .heading {
+        padding-top: 55px;
+    }
+    .heading a {
+        color: #ffffff;
+        font-size: .8em;
+        font-family: 'AtlasGrotesk', sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .heading2 {
+        text-align: center;
+        padding-top: 22px;
+    }
+    #username {
+        padding-left: 72px;
+        /* background-size: 11%; */
 
-  #username{
-    padding-left: 20%;
-      background-size: 17%
-  }
-  #password{
-    padding-left: 20%;
-    background-size: 17%;
-  }
-  input{
-    min-width: 100%;
-  }
-  .content2{
-        padding: 136px 0 0 0px;
-  }
-  .logoN img{
-    margin-top: 28%;
-   width: 37%;
-  }
-  #footer-content {
-    padding-bottom: 7%;
-    display: inline-block;
-    float: left;
-    margin: 0px 0px 0px -67px
-  }
-  #footer-co {
-      display: inline-block;
-      float: right;
-      margin: 0 -39px 0px 0px;
-  }
+        font-size: 0.7em;
+    }
+    #email {
+        padding-left: 72px;
+        font-size: 0.7em;
+        /*background-size: 26px;*/
+    }
+    #submit {
+        margin: auto;
+    }
+    #password {
+        padding-left: 72px;
+        /*background-size: 11%;*/
+
+        font-size: 0.7em;
+    }
+    .content {
+        padding-top: 78px;
+    }
+    input {
+        min-width: 100%;
+        font-size: 4em;
+    }
+    #btn {
+        font-size: .8em;
+    }
+    #center_text {
+        width: 100%;
+        font-size: 3vw;
+    }
+}
+@media screen and (max-width: 382px) and (min-width: 320px) {
+    #username {
+        padding-left: 71px;
+        /*background-size: 11%;*/
+    }
+    .heading {
+        padding-top: 37px;
+    }
+    .content {
+        padding-top: 61px;
+    }
+    .heading a {
+        color: #ffffff;
+        font-size: .6em;
+        font-family: 'AtlasGrotesk', sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .heading2 {
+        text-align: center;
+        padding-top: 22px;
+    }
+    .content2 {
+        text-align: center;
+        margin: 8%;
+        padding-top: 30px;
+    }
+    #password {
+        padding-left: 71px;
+        /*background-size: 17%;*/
+    }
+    #email {
+        padding-left: 71px;
+        /*background-size: 11%;*/
+    }
+    #submit {
+        margin: 27px 0 0 0px;
+    }
+    input {
+        min-width: 100%;
+    }
+    .logoN img {
+        margin-top: 37px;
+        width: 80%;
+    }
+    #footer-content {
+        padding-bottom: 7%;
+        display: inline-block;
+        float: left;
+        margin: 0px 0px 0px -67px
+    }
+    #footer-co {
+        display: inline-block;
+        float: right;
+        margin: 0 -39px 0px 0px;
+    }
 }
