@@ -1,0 +1,53 @@
+<html>
+<head>
+    <title>
+        Invision app
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<script>
+    $(document).ready(function() {
+        $("#submit").hover(function() {
+            $(this).css("background-color", "#f96331");
+        }, function() {
+            $(this).css("background-color", "rgba(0,0,0,0.1)");
+        });
+    });
+</script>
+<body>
+    <div class="layer">
+        <div class="ucontainer">
+            <div class="logoN">
+                <img src="header.png" id="toplogo" width="50%">
+            </div>
+            <div style="clear:both"></div>
+            <div class="heading">
+                <h1><a href="#">Create Account</a></h1>
+            </div>
+            <div class="content">
+                <div class="user-input" id="userlogo">
+                    <!-- <img src="ulogo.png"> -->
+                    <input type="text" placeholder="Username" id="username" onFocus="border='null'">
+                </div>
+                <div class="user-message" id="usermessage">
+                    <!-- <img src="ulogo.png"> -->
+                    <input type="email" placeholder="Email" id="email" onFocus="border='null'">
+                </div>
+                <div class="user-password">
+                    <input type="password" placeholder="Password" id="password" onFocus="value=''">
+                </div>
+                <div class="submit">
+                    <input type="button" value="Continue" id="submit" onFocus="value=''" />
+                </div>
+            </div>
+            <div class="heading2">
+                <h4><a href="#">Terms & condition</a></h4>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
