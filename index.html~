@@ -1,193 +1,186 @@
 <html>
+
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<!-- <link rel="stylesheet" href="lib/jquery.bxslider.css" type="text/css">
-  <script src="lib/jquery.bxslider.js"></script>
-		<script type="text/javascript">
-			$(document).ready(function(){
-				$('.bxslider').bxSlider({
-  mode: 'fade',
-  captions: true
-});
-				});
-				</script> -->
-				<link href="thumbnail-slider.css" rel="stylesheet" type="text/css" />
-	 <script src="thumbnail-slider.js" type="text/javascript"></script>
-	 <style>
-			 body {font: normal 0.9em Arial;color:#222;}
-			 header {display:block; font-size:1.2em;margin-bottom:100px;}
-			 header a, header span {
-					 display: inline-block;
-					 padding: 4px 8px;
-					 margin-right: 10px;
-					 border: 2px solid #000;
-					 background: #DDD;
-					 color: #000;
-					 text-decoration: none;
-					 text-align: center;
-					 height: 20px;
-			 }
-			 header span {background:white;}
-			 a {color: #1155CC;}
-	 </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
+
 <body>
-<div class="top-header">
-	<div id="left_header">
-		<a href="#">
-			<img src="back.png" width="5%">
-		</a>
-		<a href="#">
-			<img src="comments.png" width="9%">
-		</a>
-		<a href="#">
-			<img src="bookmark.png" width="9%">
-		</a>
-		<a href="#">
-			<img src="share.png" width="9%">
-		</a>
-	</div>
-	<div id="mid_header">
-		<img src="logo.png" width="9%">
-	</div>
-	<div id="right_header">
-		<a href="#">
-			<img src="text.png" width="11%">
-		</a>
-		<a href="#">
-			<img src="search.png" width="9%">
-		</a>
-		<a href="#">
-			<img src="man.png" width="10%" >
-		</a>
-	</div>
-</div>
-<div class="header2">
-	<div id="header">
-		<a href="#">
-			<img src="back.png" width="3%">
-		</a>
-		<a href="#">
-			<img src="comments.png" width="5%">
-		</a>
-		<a href="#">
-			<img src="text.png" width="7%">
-		</a>
-		<a href="#">
-			<img src="bookmark.png" width="5%">
-		</a>
-		<a href="#">
-			<img src="share.png" width="5%">
-		</a>
-	</div>
-</div>
-<div style="clear: both;"></div>
-<div class="content">
-	<div class="slider">
-		<div id="slider_image">
-			<div id="top_slider"></div>
-			<div id="slider_content">
-				Arctic sea ice extent hits records low for winter maximum
-			</div>
-		</div>
-	</div>
-	<div id="icons">
-		<div id="icon_left">
-			<img src="source.png" width="10px"><sup>CNN</sup>&emsp;&emsp;
-			<img src="clock.png" width="11px"><sup id="old">Apr 3,2015</sup><sup id="new">Apr 3,2015</sup>
-		</div>
-		<div id="icon_right">
-			ENVIRONMENT
-		</div>
-	</div>
-	<div id="article1">
-		According to the National Oceanic and Atmospheric Administration, Ted Scambos, NSIDC lead scientist, puts the potentially record low maximum sea ice extent this year down to low ice extent in the pacific and a late drop in ice extent in the Barents Sea.
-	</div>
-	<div class="images">
-		<div id="image_top">
-			<img src="image2.png" id="overlap">
-			<div id="text">
-			</div>
-			<label id="image_div"><img src="image1.png" height="60%"></label>
-		</div>
-	</div>
-	<div class="images2">
-		<div id="image_top2">
-			<img src="image2.png" width="65%">
-			<div id="image_div2"><img src="image1.png" height="60%"></div>
 
-		</div>
-		<div style="clear:both"></div>
-	</div>
-	<div class="heading6">
-		"According to the National Oceanic and Atmospheric Administration, Ted Scambos, NSIDC lead scientist, puts the potentially record low maximum sea ice extent this year down to low ice extent in the pacific and a late drop in ice extent in the Barents Sea".
+    <div class="top-header">
+        <div class="main-header">
+            <div id="left_header">
+                <a href="#">
+                    <img src="back.png" width="5%">
+                </a>
+                <a href="#">
+                    <img src="comments.png" width="9%">
+                </a>
+                <a href="#">
+                    <img src="bookmark.png" width="9%">
+                </a>
+                <a href="#">
+                    <img src="share.png" width="9%">
+                </a>
+            </div>
+            <div id="mid_header">
+                <img src="logo.png" width="9%">
+            </div>
+            <div id="right_header">
+                <a href="#">
+                    <img src="text.png" width="11%">
+                </a>
+                <a href="#">
+                    <img src="search.png" width="9%">
+                </a>
+                <a href="#">
+                    <img src="man.png" width="10%">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="header2">
+        <div class="main-header2">
+            <div id="header">
+                <a href="#">
+                    <img src="back.png" width="3%">
+                </a>
+                <a href="#">
+                    <img src="comments.png" width="5%">
+                </a>
+                <a href="#">
+                    <img src="text.png" width="7%">
+                </a>
+                <a href="#">
+                    <img src="bookmark.png" width="5%">
+                </a>
+                <a href="#">
+                    <img src="share.png" width="5%">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div style="clear: both;"></div>
+    <div class="content">
 
-	</div>
-	<div style="clear: both;"></div>
-	<div class="article2">
-		<div id="heading">
-				So what does this new record for the lowest level of winter ice actually mean?
-			</div>
-			<div id="article2_content">
-				The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens with climate change. Even if the Arctic continues to be one of the fastest-warming regions of the world, it will always be plunged into the bitterly cold polar dark every winter. And year-by-year, for all kinds of natural reasons, there's huge variety of the state of the ice.
-			</div>
-		</div>
-		<div id="video">
-			<img src="video.png" width="100%">
-		</div>
-		<div id="article3">
-			<p>For a start, it does not automatically follow that a record amount of ice will melt this summer. More important for determining the size of the annual thaw is the state of the weather as the midnight sun approaches and temperatures rise. But over the more than 30 years of satellite records, scientists have observed a clear pattern of decline, decade-by-decade.</p>
+        <div id="slider_image">
+            <div id="slider_content">
+                23 COMMENTS
+            </div>
 
-			<o>So at some point this century the summers are on course to be clear of ice, opening up new shipping lanes, making it easier to access the region's oil and gas and also altering the path of the jet stream that drives our weather. So the matter of when all this might happen is the subject of intense research.
-		</div>
+            <div class="button">
+                <div class="btn">
+                    <input type="button" value="best" id="submit" />
+                </div>
+                <div class="btn">
+                    <input type="button" value="Newest" id="submit1" />
+                </div>
+                <div class="btn">
+                    <input type="button" value="Oldest" id="submit2" />
+                </div>
+                <div style="clear:both"></div>
+            </div>
 
-			<div style="padding:0px 0;">
-	 <div id="thumbnail-slider">
-			 <div class="inner">
-					 <ul>
-							 <li>
-									 <a class="thumb" href="image4.png" img class="img4"></a>
-							 </li>
-                <li>
-									 <a class="thumb" href="image3.png" img class="img3"></a>
-							 </li>
-                 <li>
-									 <a class="thumb" href="image5.png" img class="img5"></a>
-							 </li>
-							 <li>
-								 <a class="thumb" href="image5.png" img class="img5"></a>
-						 </li>
+            <div style="clear:both"></div>
+        </div>
+
+        <div style="clear:both"></div>
+        <div class="mike">
+            <img src="mike.png" id="nameimg">
+        </div>
+
+        <div style="clear:both"></div>
+        <div class="innericon">
+            <div id="icon_left">
+                <img src="clock2.png" width="25px" id="clock-img"><sup id="old">Apr 3,<strong>1:30 pm</strong></sup><sup id="new">Apr 3,<strong>1:30 pm</strong></sup>
+                <img src="heart.png" width="30px" id="heart-img"><sup>12</sup>&emsp;&emsp;
+
+            </div>
+
+            <div id="ic-right">
+
+                <span><font face="AtlasGrotesk',sans-serif">Mike taylor </font></span>
+            </div>
+            <div style="clear:both"></div>
+
+            <div class="heading">
+                <h2> such a massive changes in such a short time is extremly unusual</h2>
+            </div>
+            <div style="clear:both"></div>
+        </div>
 
 
-					 </ul>
-			 </div>
-	 </div>
-</div>
+        <div style="clear:both"></div>
+        <div class="line2">
+            <div class="mike">
+                <img src="shopia.png" id="nameimg">
+            </div>
+            <div class="innericon">
+                <div id="icon_left">
+                    <img src="clock2.png" width="25px" id="clock-img"><sup id="old">Apr 3,<strong>1:30 pm</strong></sup><sup id="new">Apr 3,<strong>1:30 pm</strong></sup>
+                    <img src="heart.png" width="30px" id="heart-img"><sup>12</sup>&emsp;&emsp;
 
-		</div>
-		<div id="heading2">
-			Melting Ice in Arctic Ocean
-		</div>
-		<!-- <div id="heading3">
-			James Flinton
-		</div> -->
-		<!-- <div id="pagination">
-			<a href="#">
-				<img src="pagination.png" width="10%">
-			</a>
-		</div> -->
-	</div>
+                </div>
 
-	<div style="clear: both;"></div>
+                <div id="ic-right">
 
-	<div class="footer">
-		<sup>NEXT STORY</sup>&emsp;
-		<div id="heading5">
-			New battery for smartphones can be charged in a minute
-		</div>
-		<img src="next.png" id="nextlogo">
-	</div>
+                    <span><font face="AtlasGrotesk',sans-serif">Sophia  </font></span>
+                </div>
+                <div style="clear:both"></div>
+
+                <div class="heading">
+                    <h2> such a massive changes in such a short time is extremly unusual</h2>
+                </div>
+                <div style="clear:both"></div>
+            </div>
+        </div>
+        <!-- <div style="clear:both"></div> -->
+        <div style="clear:both"></div>
+        <div class="line2">
+            <div class="mike">
+                <img src="charli.png" id="nameimg">
+            </div>
+            <div class="innericon">
+                <div id="icon_left">
+                    <img src="clock2.png" width="25px" id="clock-img"><sup id="old">Apr 3,<strong>1:30 pm</strong></sup><sup id="new">Apr 3,<strong>1:30 pm</strong></sup>
+                    <img src="heart.png" width="30px" id="heart-img"><sup>12</sup>&emsp;&emsp;
+
+                </div>
+
+                <div id="ic-right">
+
+                    <span><font face="AtlasGrotesk',sans-serif">mike taylor </font></span>
+                </div>
+                <div style="clear:both"></div>
+
+                <div class="heading">
+                    <h2> such a massive changes in such a short time is extremly unusual</h2>
+                </div>
+                <div style="clear:both"></div>
+            </div>
+        </div>
+        <div class="line">
+        </div>
+        <div style="clear:both"></div>
+        <div class="mike">
+            <img src="pinphoto.png" id="pinimg">
+        </div>
+        <div style="clear:both"></div>
+        <div class="innericon">
+            <div id="footer_left">
+                <img src="nextarrow.png" id="pin_photo">&emsp;&emsp;
+            </div>
+            <div id="footer-right">
+
+                <input type="text" placeholder="Write Something....">
+            </div>
+            <div style="clear:both"></div>
+        </div>
+    </div>
+
+    </div>
 </body>
+
 </html>
+

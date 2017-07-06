@@ -31,6 +31,18 @@ strong {
     float: left;
     text-align: center;
 }
+#ic-right{
+  height:1px;
+}
+#clock-img{
+  margin: 0 0 3px 0px;
+
+}
+
+  /*#footer-rightInput::-webkit-input-placeholder {
+  font-family: 'myFont','AtlasGrotesk', sans-serif;*/
+
+
 #submit {
     color: #ffffff;
     font-size: 11px;
@@ -50,6 +62,18 @@ strong {
     cursor: pointer;
     outline: none;
     border: none;
+}
+
+  .line {
+    border-bottom: 1px solid grey;
+    margin-top: 32px;
+    opacity: 0.2;
+}
+
+.line2{
+
+    padding-top: 24px;
+
 }
 #submit2 {
     color: #ffffff;
@@ -75,6 +99,7 @@ input[type=button] {
 
     padding-left: 6px;
 }
+
 #left_header {
     width: 33%;
     float: left;
@@ -156,6 +181,10 @@ sup {
     float: left;
     border-radius: 57%;
 }
+#pinimg{
+  float: left;
+  border-radius: 57%;
+}
 h2 {
     font-weight: 500;
     font-size: 1.7em;
@@ -234,7 +263,8 @@ a {
 }*/
 
     #clock-img {
-        width: 7%;
+      width: 23px;
+
     }
     #heart-img {
         margin-left: 5px;
@@ -276,6 +306,14 @@ a {
     /* margin-left: 23px; */
     /* margin-top: 8px; */
 }
+#pinimg {
+    /* float: left; */
+    width: 90%;
+    border-radius: 57%;
+    /* margin-left: 23px; */
+    /* margin-top: 8px; */
+    /* margin: 0 0 0 38px; */
+}
 span {
     line-height: 100px;
     font-weight: 600;
@@ -291,7 +329,7 @@ span {
     /* left: 0; */
 
     padding-left: 99px;
-    border-bottom: 1px solid gray;
+    /*border-bottom: 1px solid gray;*/
 }
 #icon_left {
     float: right;
@@ -439,6 +477,15 @@ span {
         /* margin-left: 23px; */
         /* margin-top: 13px; */
     }
+
+    #pinimg {
+  /* float: left; */
+  width: 63%;
+  /* border-radius: 57%; */
+  margin-left: 0;
+  margin-top: -13px;
+  /* margin: -12px 0px 0 9px; */
+}
     sup {
         /*padding-left: 6px;*/
 
@@ -476,7 +523,7 @@ span {
 }*/
 
     #clock-img {
-        width: 14px;
+          width: 19px;
     }
     h2 {
         font-weight: 600;
@@ -494,3 +541,4 @@ span {
         width: 27px;
     }
 }
+
